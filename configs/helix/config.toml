@@ -1,0 +1,19 @@
+theme = "my_theme"
+
+[editor]
+rulers = [100]
+line-number = "relative"
+mouse = false
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.indent-guides]
+render = true
+character = "·"
+skip-levels = 1
+
+[keys.normal]
+C-x = ":buffer-close!"
