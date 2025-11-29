@@ -108,7 +108,7 @@
           mako
           nil
           obs-studio
-          pamixer
+          pavucontrol
           planify
           wl-clipboard
           zellij
