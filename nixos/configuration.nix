@@ -112,7 +112,6 @@
           planify
           vial
           wl-clipboard
-          zellij
         ];
       };
     };
