@@ -72,6 +72,11 @@ main() {
     "${USER_HOME}/.config-sway-backup"
 
   symlink \
+    "${SCRIPT_DIR}/configs/.zshrc" \
+    "${USER_HOME}/.zshrc" \
+    "${USER_HOME}/.zshrc-backup"
+
+  symlink \
     "${SCRIPT_DIR}/wallpapers" \
     "${USER_HOME}/wallpapers" \
     "${USER_HOME}/.wallpapers-backup"
