@@ -110,6 +110,7 @@
           obs-studio
           pavucontrol
           planify
+          vial
           wl-clipboard
           zellij
         ];
