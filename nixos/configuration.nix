@@ -85,6 +85,11 @@
         gamescope
       ];
     };
+
+    git = {
+      enable = true;
+      lfs.enable = true;
+    };
   };
 
   fonts = {
@@ -108,7 +113,6 @@
           flameshot
           foliate
           gimp
-          git
           grim
           helix
           htop
