@@ -26,6 +26,10 @@
       enable = true;
       enable32Bit = true;
     };
+
+    keyboard = {
+      qmk.enable = true;
+    };
   };
 
   time.timeZone = "Europe/London";
@@ -63,6 +67,10 @@
         };                                                                   
       };                                                                     
     };
+
+    udev.packages = with pkgs; [
+      vial
+    ];
   };
 
   programs = {
