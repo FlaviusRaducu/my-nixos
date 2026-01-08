@@ -108,20 +108,18 @@
         description = "dev";
         extraGroups = [ "networkmanager" "wheel" ];
         packages = [
+          btop
           chromium
           firefox
           flameshot
           foliate
           gimp
-          grim
           helix
-          htop
           libreoffice
           mako
           nil
           obs-studio
           pavucontrol
-          planify
           vial
           wl-clipboard
         ];
